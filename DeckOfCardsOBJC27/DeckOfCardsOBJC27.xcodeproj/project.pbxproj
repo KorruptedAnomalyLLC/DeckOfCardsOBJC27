@@ -12,6 +12,9 @@
 		0C85999822CBED4600B6D6E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C85999722CBED4600B6D6E9 /* Assets.xcassets */; };
 		0C85999B22CBED4600B6D6E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C85999922CBED4600B6D6E9 /* LaunchScreen.storyboard */; };
 		0C85999E22CBED4600B6D6E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C85999D22CBED4600B6D6E9 /* main.m */; };
+		0C8599AB22CBEF2C00B6D6E9 /* AJDWCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8599AA22CBEF2C00B6D6E9 /* AJDWCard.m */; };
+		0C8599B322CC1A1E00B6D6E9 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8599B222CC1A1E00B6D6E9 /* CardViewController.swift */; };
+		0C8599B822CC1B4B00B6D6E9 /* AJDWCardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8599B722CC1B4B00B6D6E9 /* AJDWCardController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,12 @@
 		0C85999A22CBED4600B6D6E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C85999C22CBED4600B6D6E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C85999D22CBED4600B6D6E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C8599A922CBEF2C00B6D6E9 /* AJDWCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJDWCard.h; sourceTree = "<group>"; };
+		0C8599AA22CBEF2C00B6D6E9 /* AJDWCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJDWCard.m; sourceTree = "<group>"; };
+		0C8599B122CC1A1E00B6D6E9 /* DeckOfCardsOBJC27-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DeckOfCardsOBJC27-Bridging-Header.h"; sourceTree = "<group>"; };
+		0C8599B222CC1A1E00B6D6E9 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
+		0C8599B622CC1B4B00B6D6E9 /* AJDWCardController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJDWCardController.h; sourceTree = "<group>"; };
+		0C8599B722CC1B4B00B6D6E9 /* AJDWCardController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJDWCardController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +96,8 @@
 		0C8599A622CBEDA400B6D6E9 /* CONTROLLERS */ = {
 			isa = PBXGroup;
 			children = (
+				0C8599AD22CC111000B6D6E9 /* MODEL CONTROLLERS */,
+				0C8599AC22CC10FE00B6D6E9 /* VIEW CONTROLLERS */,
 			);
 			path = CONTROLLERS;
 			sourceTree = "<group>";
@@ -94,6 +105,8 @@
 		0C8599A722CBEDE100B6D6E9 /* MODELS */ = {
 			isa = PBXGroup;
 			children = (
+				0C8599A922CBEF2C00B6D6E9 /* AJDWCard.h */,
+				0C8599AA22CBEF2C00B6D6E9 /* AJDWCard.m */,
 			);
 			path = MODELS;
 			sourceTree = "<group>";
@@ -104,6 +117,24 @@
 				0C8599A522CBED7800B6D6E9 /* STORYBOARDS */,
 			);
 			path = VIEWS;
+			sourceTree = "<group>";
+		};
+		0C8599AC22CC10FE00B6D6E9 /* VIEW CONTROLLERS */ = {
+			isa = PBXGroup;
+			children = (
+				0C8599B222CC1A1E00B6D6E9 /* CardViewController.swift */,
+				0C8599B122CC1A1E00B6D6E9 /* DeckOfCardsOBJC27-Bridging-Header.h */,
+			);
+			path = "VIEW CONTROLLERS";
+			sourceTree = "<group>";
+		};
+		0C8599AD22CC111000B6D6E9 /* MODEL CONTROLLERS */ = {
+			isa = PBXGroup;
+			children = (
+				0C8599B622CC1B4B00B6D6E9 /* AJDWCardController.h */,
+				0C8599B722CC1B4B00B6D6E9 /* AJDWCardController.m */,
+			);
+			path = "MODEL CONTROLLERS";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +169,7 @@
 				TargetAttributes = {
 					0C85998A22CBED4600B6D6E9 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -177,7 +209,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C8599B322CC1A1E00B6D6E9 /* CardViewController.swift in Sources */,
+				0C8599AB22CBEF2C00B6D6E9 /* AJDWCard.m in Sources */,
 				0C85999E22CBED4600B6D6E9 /* main.m in Sources */,
+				0C8599B822CC1B4B00B6D6E9 /* AJDWCardController.m in Sources */,
 				0C85999022CBED4600B6D6E9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,6 +355,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5Z9AZ3J86W;
 				INFOPLIST_FILE = "$(SRCROOT)/DeckOfCardsOBJC27/RESOURCES/Info.plist";
@@ -329,6 +365,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.AustinWest.DeckOfCardsOBJC27;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DeckOfCardsOBJC27/CONTROLLERS/VIEW CONTROLLERS/DeckOfCardsOBJC27-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -337,6 +376,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5Z9AZ3J86W;
 				INFOPLIST_FILE = "$(SRCROOT)/DeckOfCardsOBJC27/RESOURCES/Info.plist";
@@ -346,6 +386,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.AustinWest.DeckOfCardsOBJC27;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DeckOfCardsOBJC27/CONTROLLERS/VIEW CONTROLLERS/DeckOfCardsOBJC27-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
