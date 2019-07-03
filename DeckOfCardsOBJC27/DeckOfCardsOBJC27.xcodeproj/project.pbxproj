@@ -12,9 +12,9 @@
 		0C85999822CBED4600B6D6E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C85999722CBED4600B6D6E9 /* Assets.xcassets */; };
 		0C85999B22CBED4600B6D6E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C85999922CBED4600B6D6E9 /* LaunchScreen.storyboard */; };
 		0C85999E22CBED4600B6D6E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C85999D22CBED4600B6D6E9 /* main.m */; };
-		0C8599AB22CBEF2C00B6D6E9 /* AJDWCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8599AA22CBEF2C00B6D6E9 /* AJDWCard.m */; };
 		0C8599B322CC1A1E00B6D6E9 /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8599B222CC1A1E00B6D6E9 /* CardViewController.swift */; };
 		0C8599B822CC1B4B00B6D6E9 /* AJDWCardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8599B722CC1B4B00B6D6E9 /* AJDWCardController.m */; };
+		0C8599DD22CD043500B6D6E9 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8599DC22CD043500B6D6E9 /* Card.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,12 +26,12 @@
 		0C85999A22CBED4600B6D6E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C85999C22CBED4600B6D6E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C85999D22CBED4600B6D6E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0C8599A922CBEF2C00B6D6E9 /* AJDWCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJDWCard.h; sourceTree = "<group>"; };
-		0C8599AA22CBEF2C00B6D6E9 /* AJDWCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJDWCard.m; sourceTree = "<group>"; };
 		0C8599B122CC1A1E00B6D6E9 /* DeckOfCardsOBJC27-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DeckOfCardsOBJC27-Bridging-Header.h"; sourceTree = "<group>"; };
 		0C8599B222CC1A1E00B6D6E9 /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
 		0C8599B622CC1B4B00B6D6E9 /* AJDWCardController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJDWCardController.h; sourceTree = "<group>"; };
 		0C8599B722CC1B4B00B6D6E9 /* AJDWCardController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJDWCardController.m; sourceTree = "<group>"; };
+		0C8599DB22CD043500B6D6E9 /* Card.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		0C8599DC22CD043500B6D6E9 /* Card.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +105,8 @@
 		0C8599A722CBEDE100B6D6E9 /* MODELS */ = {
 			isa = PBXGroup;
 			children = (
-				0C8599A922CBEF2C00B6D6E9 /* AJDWCard.h */,
-				0C8599AA22CBEF2C00B6D6E9 /* AJDWCard.m */,
+				0C8599DB22CD043500B6D6E9 /* Card.h */,
+				0C8599DC22CD043500B6D6E9 /* Card.m */,
 			);
 			path = MODELS;
 			sourceTree = "<group>";
@@ -209,8 +209,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C8599DD22CD043500B6D6E9 /* Card.m in Sources */,
 				0C8599B322CC1A1E00B6D6E9 /* CardViewController.swift in Sources */,
-				0C8599AB22CBEF2C00B6D6E9 /* AJDWCard.m in Sources */,
 				0C85999E22CBED4600B6D6E9 /* main.m in Sources */,
 				0C8599B822CC1B4B00B6D6E9 /* AJDWCardController.m in Sources */,
 				0C85999022CBED4600B6D6E9 /* AppDelegate.m in Sources */,
